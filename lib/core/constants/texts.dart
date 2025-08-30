@@ -1,5 +1,9 @@
 //  appbar
-final String general_Text = 'Where in the world?';
-final String light_Mode = 'Light Mode';
-final String dark_Mode = 'Dark Mode';
-final String search_TextField = 'Search for country...';
+final String generalText = 'Where in the world?';
+final String lightMode = 'Light Mode';
+final String darkMode = 'Dark Mode';
+final String searchTextField = 'Search for country...';
+final String error = 'Error fetching countries:';
+final String population = 'Population:';
+final String region = "region:";
+final String capital = "Capital:";

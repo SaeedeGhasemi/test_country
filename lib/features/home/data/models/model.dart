@@ -88,9 +88,9 @@ Future<List<Country>> getCountries() async {
     final response = await HttpClient.dio.get(
       '/all?fields=name,population,capital,flags,region',
     );
-    print('Request URL: ${response.realUri}');
-    print('Status Code: ${response.statusCode}');
-    print('Raw Response: ${response.data}');
+    // print('Request URL: ${response.realUri}');
+    // print('Status Code: ${response.statusCode}');
+    // print('Raw Response: ${response.data}');
     final List data = response.data as List;
     return data.map((e) => Country.fromJson(e)).toList();
   } catch (e) {

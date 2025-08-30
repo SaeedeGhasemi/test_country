@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                general_Text,
+                generalText,
                 style: TextStyle(fontWeight: FontWeight.w600, fontSize: 20),
               ),
               TextButton(
@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
                 child: Row(
                   children: [
                     Text(
-                      light_Mode,
+                      lightMode,
                       style: TextStyle(
                         color: dark_Blue_Text,
                         fontWeight: FontWeight.w600,
@@ -56,7 +56,7 @@ class HomePage extends StatelessWidget {
 
                   prefixIcon: Icon(CupertinoIcons.search, size: 18),
                   prefixIconColor: dark_Grey_Input,
-                  hintText: search_TextField,
+                  hintText: searchTextField,
                   hintStyle: TextStyle(color: dark_Grey_Input, fontSize: 16),
                   fillColor: white_Elements_Text,
                 ),
@@ -97,7 +97,6 @@ class ListCountries extends StatelessWidget {
       margin: EdgeInsets.only(bottom: 30),
       width: double.infinity,
       height: 500,
-
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(4),
         color: white_Elements_Text,
@@ -136,7 +135,7 @@ class ListCountries extends StatelessWidget {
                 Row(
                   children: [
                     Text(
-                      "Population:",
+                      population,
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
                         color: dark_Blue_Text,
@@ -155,7 +154,7 @@ class ListCountries extends StatelessWidget {
                 Row(
                   children: [
                     Text(
-                      "region:",
+                      region,
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
                         color: dark_Blue_Text,
@@ -174,7 +173,7 @@ class ListCountries extends StatelessWidget {
                 Row(
                   children: [
                     Text(
-                      "Capital:",
+                      capital,
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
                         color: dark_Blue_Text,
